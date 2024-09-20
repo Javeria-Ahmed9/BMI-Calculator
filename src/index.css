@@ -1,0 +1,141 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: rgb(205, 205, 205);
+}
+#labelid{
+  font-size: 16px;
+}
+#head {
+  background-color: rgba(142, 197, 80, 0.941);
+  font-size: 35px;
+  height: 40px;
+  text-align: center;
+  box-shadow: rgba(151, 207, 88, 0.941) 0px 54px 55px, rgba(193, 178, 111, 0.881) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#joj {
+  display: flex;
+  width: 500px;
+  height: 400px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+input {
+  font-size: 16px;
+  height: 40px;
+  border: 1px solid white;
+  margin-right: 20px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#maindiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#po {
+  background-color: rgba(142, 198, 193, 0.973);
+  font-size: 35px;
+  margin-top: 20px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: rgba(204, 81, 235, 0.941) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+#r {
+  height: 30px;
+  width: 70px;
+  border: 0.5px solid rgb(109, 88, 92);
+
+}
+
+header {
+  margin-top: 20px;
+  font-size: 27px;
+  text-shadow: 3px 4px 5px #1d6bf1;
+}
+
+main {
+  color: rgb(236, 16, 16);
+  margin-top: 77px;
+  width: 300px;
+ font-size: 27px ;
+  overflow: hidden;
+}
+
+@media(max-width:460px){
+
+  
+  h1 {
+    height: 16px;
+
+  }
+  #labelid{
+    font-size: 12px;
+  }
+  #joj {
+    width: 200px;
+    height: 300px;
+    margin-top: 30px;
+  
+  }
+  
+  input {
+    font-size: 13px;
+    width: 270px;
+    height: 30px;
+  }
+  
+  label {
+    font-size: 10px;
+  }
+  
+  #maindiv {
+ 
+    flex-direction: column;
+  }
+  
+  #po {
+   
+    font-size: 16px;
+    margin-top: 10px;
+    height: 250px;
+    width: 250px;
+  
+  }
+  
+  #r {
+    height: 30px;
+    width: 68px;
+  
+    margin-left: 0px;
+  
+  }
+  
+  header {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  main {
+    margin-top: 64px;
+    width: 250px;
+  }
+}
